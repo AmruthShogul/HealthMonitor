@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:HealthMonitor"
+             x:Class="HealthMonitor.MainPage"
+             NavigationPage.HasNavigationBar="False"
+             BackgroundColor="#33B6FF">
+
+    <StackLayout BackgroundColor="#33B6FF">
+        <!-- Place new controls here -->
+        <StackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"
+                     Margin="20">
+            <Label Text="Health Monitor" 
+               HorizontalOptions="Center"
+               FontSize="30"
+               TextColor="White"
+               FontAttributes="Bold"
+               />
+
+            <Label Text="The Enterprise Solution" 
+               HorizontalOptions="End"
+               VerticalOptions="Center"
+               FontSize="10"
+               TextColor="White"
+               />
+        </StackLayout>
+
+
+        <Grid HorizontalOptions="Center" Padding="20">
+            <Button Text="LOG IN"
+                BackgroundColor="#33B6FF"
+                BorderWidth="2"
+                BorderColor="White"
+                BorderRadius="10"
+                TextColor="White"
+                HorizontalOptions="Start"
+                Grid.Column="0"
+                Clicked="OnLoginClick"
+                /> <!--Clicked="OnLoginClick"-->
+
+            <Button Text="SIGN UP"
+                BackgroundColor="#33B6FF"
+                BorderWidth="2"
+                BorderColor="White"
+                BorderRadius="10"
+                TextColor="White"
+                HorizontalOptions="Center"
+                Grid.Column="1"
+                Clicked="OnSignUpClick"
+                /> <!--Clicked="OnSignUpClick"-->
+        </Grid>
+    </StackLayout>
+
+</ContentPage>

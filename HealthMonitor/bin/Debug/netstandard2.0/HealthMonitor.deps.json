@@ -1,0 +1,184 @@
+{
+  "runtimeTarget": {
+    "name": ".NETStandard,Version=v2.0/",
+    "signature": "cf8201efa3b4f735d40bcbdbe65f9a49934fd717"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETStandard,Version=v2.0": {},
+    ".NETStandard,Version=v2.0/": {
+      "HealthMonitor/1.0.0": {
+        "dependencies": {
+          "Microsoft.Exchange.WebServices.NETStandard": "1.1.3",
+          "Mono.Posix.NETStandard": "1.0.0",
+          "NETStandard.Library": "2.0.3",
+          "Novell.Directory.Ldap.NETStandard": "3.0.3",
+          "Syncfusion.Xamarin.SfProgressBar": "17.4.0.55",
+          "Xamarin.Forms": "4.5.0.396"
+        },
+        "runtime": {
+          "HealthMonitor.dll": {}
+        }
+      },
+      "Microsoft.Exchange.WebServices.NETStandard/1.1.3": {
+        "dependencies": {
+          "System.Security.Cryptography.Xml": "4.4.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Exchange.WebServices.NETStandard.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "Microsoft.NETCore.Platforms/1.1.0": {},
+      "Mono.Posix.NETStandard/1.0.0": {},
+      "NETStandard.Library/2.0.3": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0"
+        }
+      },
+      "Novell.Directory.Ldap.NETStandard/3.0.3": {
+        "runtime": {
+          "lib/netstandard2.0/Novell.Directory.Ldap.NETStandard.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.3.0"
+          }
+        }
+      },
+      "Syncfusion.Licensing/17.4.0.55": {
+        "runtime": {
+          "lib/netstandard2.0/Syncfusion.Licensing.dll": {
+            "assemblyVersion": "17.4.0.55",
+            "fileVersion": "17.4.0.55"
+          }
+        }
+      },
+      "Syncfusion.Xamarin.Core/17.4.0.55": {
+        "dependencies": {
+          "Syncfusion.Licensing": "17.4.0.55",
+          "Xamarin.Forms": "4.5.0.396"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Syncfusion.Core.XForms.dll": {
+            "assemblyVersion": "17.4451.0.55",
+            "fileVersion": "17.4451.0.55"
+          }
+        }
+      },
+      "Syncfusion.Xamarin.SfProgressBar/17.4.0.55": {
+        "dependencies": {
+          "Syncfusion.Xamarin.Core": "17.4.0.55",
+          "Xamarin.Forms": "4.5.0.396"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Syncfusion.SfProgressBar.XForms.dll": {
+            "assemblyVersion": "17.4451.0.55",
+            "fileVersion": "17.4451.0.55"
+          }
+        }
+      },
+      "System.Security.Cryptography.Xml/4.4.0": {
+        "runtime": {
+          "lib/netstandard2.0/System.Security.Cryptography.Xml.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.6.25519.3"
+          }
+        }
+      },
+      "Xamarin.Forms/4.5.0.396": {
+        "runtime": {
+          "lib/netstandard2.0/Xamarin.Forms.Core.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "4.5.0.158"
+          },
+          "lib/netstandard2.0/Xamarin.Forms.Platform.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "4.5.0.158"
+          },
+          "lib/netstandard2.0/Xamarin.Forms.Xaml.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "4.5.0.158"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "HealthMonitor/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.Exchange.WebServices.NETStandard/1.1.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-b4cNotfW4ziChA6dHmlSqf4WH7wKbplwwf5Uz3bASOhDY+lys23wO+lrdDtbMjauxVGJXT+We9X7bHXhzv9htg==",
+      "path": "microsoft.exchange.webservices.netstandard/1.1.3",
+      "hashPath": "microsoft.exchange.webservices.netstandard.1.1.3.nupkg.sha512"
+    },
+    "Microsoft.NETCore.Platforms/1.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kz0PEW2lhqygehI/d6XsPCQzD7ff7gUJaVGPVETX611eadGsA3A877GdSlU0LRVMCTH/+P3o2iDTak+S08V2+A==",
+      "path": "microsoft.netcore.platforms/1.1.0",
+      "hashPath": "microsoft.netcore.platforms.1.1.0.nupkg.sha512"
+    },
+    "Mono.Posix.NETStandard/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-vSN/L1uaVwKsiLa95bYu2SGkF0iY3xMblTfxc8alSziPuVfJpj3geVqHGAA75J7cZkMuKpFVikz82Lo6y6LLdA==",
+      "path": "mono.posix.netstandard/1.0.0",
+      "hashPath": "mono.posix.netstandard.1.0.0.nupkg.sha512"
+    },
+    "NETStandard.Library/2.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-st47PosZSHrjECdjeIzZQbzivYBJFv6P2nv4cj2ypdI204DO+vZ7l5raGMiX4eXMJ53RfOIg+/s4DHVZ54Nu2A==",
+      "path": "netstandard.library/2.0.3",
+      "hashPath": "netstandard.library.2.0.3.nupkg.sha512"
+    },
+    "Novell.Directory.Ldap.NETStandard/3.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-i/6dZo7e/kcaesUOs5XzoVzPlXuiCYZYJLbnXOj2UqXa3iIiVq3ec9F/GvkA/FWtTKCyB6qi1O+YIC5jBJhGcA==",
+      "path": "novell.directory.ldap.netstandard/3.0.3",
+      "hashPath": "novell.directory.ldap.netstandard.3.0.3.nupkg.sha512"
+    },
+    "Syncfusion.Licensing/17.4.0.55": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-OiadVAyHgL8hqsnrl4cyrhcu6pUngz/IOQqzuHe6AfF6B0CyZRGoyij+B/EsIAeQ036jgkiZ+GXxBCSdxsLgEg==",
+      "path": "syncfusion.licensing/17.4.0.55",
+      "hashPath": "syncfusion.licensing.17.4.0.55.nupkg.sha512"
+    },
+    "Syncfusion.Xamarin.Core/17.4.0.55": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-V+5G/WjG2Kh94mz6Z0DXLkdZXad0cgPAHfI+GivPVdtJge5QaXFSv2ing3Y8h5BbjfoaJPJQrE2evaNGqKq2ZA==",
+      "path": "syncfusion.xamarin.core/17.4.0.55",
+      "hashPath": "syncfusion.xamarin.core.17.4.0.55.nupkg.sha512"
+    },
+    "Syncfusion.Xamarin.SfProgressBar/17.4.0.55": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-SbV5b67eJVrcPBdZGu9UcqF+2+Dhwy6M1SKuvhwOcZSBpZ0NaRRNFcPIBVV9Ep4rF+Oy8t9syN41mWs3lJIGgA==",
+      "path": "syncfusion.xamarin.sfprogressbar/17.4.0.55",
+      "hashPath": "syncfusion.xamarin.sfprogressbar.17.4.0.55.nupkg.sha512"
+    },
+    "System.Security.Cryptography.Xml/4.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-1Xubvo4i+K+DO6YzVh6vBKmCl5xx/cAoiJEze6VQ+XwVQU25KQC9pPrmniz2EbbJnmoQ5Rm2FFjHsfQAi0Rs+Q==",
+      "path": "system.security.cryptography.xml/4.4.0",
+      "hashPath": "system.security.cryptography.xml.4.4.0.nupkg.sha512"
+    },
+    "Xamarin.Forms/4.5.0.396": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-4yU8Dj83+/2PFTd76Q88G/fuVQ5MryvadGbc26ZqwQiLOUdMVLu5Otmzp51cWvJfwSgTI97fzPfE2urHKbF/XA==",
+      "path": "xamarin.forms/4.5.0.396",
+      "hashPath": "xamarin.forms.4.5.0.396.nupkg.sha512"
+    }
+  }
+}
